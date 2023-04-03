@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table tbody tr td:not(:first-child) {
+    border: 1px solid blue;
+    width: 3em;
+    height:3em;
+  }
+  
+
+  .table tr td:nth-child(3) {
+    border:none!important;
+  }
+  .table tr td:nth-child(5) {
+    border:none!important;
+  }
+  .table tr td:nth-child(7) {
+    border:none!important;
+  }
+    .table tr td:nth-child(9) {
+        border:none!important;
+    }
+    .table tr td:nth-child(10) {
+        border:none!important;
+    }
+    .table tr td:nth-child(12) {
+        border:none!important;
+    }
+    .table tr td:nth-child(14) {
+        border:none!important;
+    }
+    .table tr td:nth-child(16) {
+        border:none!important;
+    }
+
+
+  
+  .table {
+    border-spacing: 3em;
+  }
